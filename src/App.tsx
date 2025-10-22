@@ -54,7 +54,7 @@ import './theme.css';
 import { Helmet } from 'react-helmet';
 
 // Near the top of the file, add this constant
-const API_ENDPOINT = import.meta.env.VITE_API_ENDPOINT || "https://cfworkerback-pages5.pages.dev/createWorker";
+const API_ENDPOINT = import.meta.env.VITE_API_ENDPOINT || "https://cf-api-mr44j-rotate-proxy.vercel.app/createWorker";
 
 function App() {
   const [open, setOpen] = useState(false);
